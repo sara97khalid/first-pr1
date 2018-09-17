@@ -1,0 +1,297 @@
+.body{
+    background-color:#ecf0f1;
+    width: 100%;
+    height: 1300px;
+    padding-top: 20px;
+    top: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+.img1{
+    width: auto;
+    height: auto;
+   /* text-align: center; */
+   padding-left: 300px;
+   padding-right: 100px;
+ border-radius: 35px;
+padding: 6px;
+
+
+}
+
+
+
+
+h2  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   padding-top:40px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+nav  a{
+    display: block;
+  float: right;
+  
+    margin: 0em;
+    margin-top: 0em;
+    font-family: sans-serif;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+  }
+  
+  .navbar a :hover {
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #373449;
+    
+      background:  #FFDC7B;
+     
+      border-radius: 25px;
+      transition: all .5s ease;
+    
+  }
+  
+  .navbar a:last-child:hover {
+    background: #373449;
+    color:  #FFDC7B;
+    padding: 10px;
+    border-radius: 25px;
+    
+      color: #373449;
+      background:  #FFDC7B;
+      transition: all .5s ease;
+    
+  }
+  
+p{
+    font-size: 20px;
+    font-family:  sans-serif;
+   padding-top: 10px;
+   top: 10px;
+  
+
+}
+
+.mypadding{
+    padding-top: 20px;
+}
+
+.myimage{
+    
+    margin-left: 30%;
+    
+}
+
+.mylist{
+    list-style-type: none;
+}
+
+.myText{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.myMargin{
+margin-top: 30px;
+}
+
+.myPaddingMedia{
+padding-top: 20px;
+padding : 35px;
+}
+
+#price{
+    background-color: #ecf0f1;
+    padding-top: 100px;
+}
+
+.mycard2{
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.business-class{
+    background-image: url("../img/buss1.jpg") ;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+    /* color: #ecf0f1;   */
+    padding-top : 1px ;
+}
+
+.my-text{
+font-size: 12px;
+text-align: justify;
+padding-top: 20px;
+}
+
+.myBtoo{
+    padding-bottom: 60px;
+}
+
+ 
+ 
+
+
+
+.business{
+    background:#fff;
+    padding:10px 10px;
+    border:1px solid #ececec;
+    box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -webkit-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -moz-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -o-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    -ms-box-shadow:2px 2px 5px 0 rgba(55,50,40, .20);
+    transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
+}
+.business:hover{
+    background:#82ca9c;
+    color:#fff;
+}
+.business:hover i {
+    color:#fff;
+}
+.business:hover h4 {
+    color:#fff;
+}
+.business:hover p {
+    color:#fff;
+}
+
+.business i{
+    font-size:60px;
+    color:#82ca9c;
+    margin-bottom: 20px;
+}
+.business h4{
+    font-size:16px;
+    color:#000;
+    text-transform:uppercase;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-top:15px;
+}
+.business p{
+    font-size:12px;
+    color:#777777;
+}
+
+
+.myspan{
+    background-color: #34495E;
+    color: #ecf0f1;
+}
+
+
+#contact{
+    padding-top: 100px;
+    background-color: #ecf0f1;
+}
+
+#footer{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: #34495e;
+color: #ecf0f1;
+}
+
+.fixUl{
+    padding-left:0;
+}
+
+
+
+
+
+ #myteam{
+     
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-color: #ecf0f1; 
+ }
+
+
+
+ a:hover {
+    color: #B1DBB3;
+}
+
+a{
+    color: #8e44ad;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+   
+    color: #2c3e50;
+}
+
+.mysize{
+    width: 100px;
+    height: 150px;
+}
+
+#btnScroll{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 16px;
+
+}
+.mysection{
+    font: 18px sans-serif;
+    text-align: center;
+    padding-top: 120px;
+    
+}
+#service{
+background-color: #ececec;
+
+
+}
+
+
+ 
+@media (max-width: 991px) {
+    
+    h1{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+ }
+
+
+@media (max-width: 1199px) {
+    h1{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+    }
+ }
+

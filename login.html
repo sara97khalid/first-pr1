@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>login-page</title>
+    <link rel="stylesheet" type="text/css" href="style22.css"> 
+ 
+    
+
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+ 
+   
+  
+ 
+</head>
+<body>
+
+<div class="body">
+
+
+        <nav class="navbar">
+    
+            <nav class="navbar navbar-expand-lg  fixed- top">
+              <a class="navbar-brand" href="#myinfo"> <i class="fa fa-home fa-2x"  aria-hidden="true"></i>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span > <i class="fa fa-home" aria-hidden="true"></i>
+                </span>
+              </button>
+            
+        
+              <a class="navbar-brand" href="index.html">
+                      <img src="img/iconmonstr-home-10.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                     
+                    </a>
+        &nbsp; &nbsp; &nbsp;
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mr-auto "  >
+                  <li class="nav-item  color=black ">
+                    <a class="nav-link" href="Home.html"> الرئيسه<span class="sr-only">(current)</span></a>
+                  </li>
+                  &nbsp;&nbsp;&nbsp;
+                  <li class="nav-item">
+         <a class="nav-link " href="About.html"  >حول </a>
+                  </li>
+                  &nbsp;&nbsp;&nbsp;
+                  <li class="nav-item">
+                      <a class="nav-link" href="servies.html">الخدمات</a>
+                    </li>
+                    &nbsp;&nbsp;&nbsp;
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html">تسجيل الدخول </a> 
+                    </li>
+                    &nbsp;&nbsp;&nbsp;
+                    <li class="nav-item ">
+                      <a class="nav-link" href="training.html"> التدريب </a>
+                    </li>
+                    
+              </ul>
+        <form class="form-inline my-2 my-lg-0   search1" style="padding-left: 500px">
+                      <input class="form-control mr-sm-2" type="search" placeholder="بحث " aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">بحث حول </button>
+                    </form>
+              </div>
+        
+        
+        </nav>   
+      </nav>
+
+
+
+
+
+
+
+<hr>
+
+
+      
+
+
+
+      
+
+
+
+              <div class="container" >
+
+
+                
+                <div class="welcome">
+                  <div class="pinkbox" >
+                    <div class="signup nodisplay" >
+                      <h1>معالجة</h1>
+                      <form autocomplete="off" >
+                        <input type="text" placeholder="الاسم">
+                        <input type="email" placeholder="الأميل">
+                        <input type="password" placeholder="كلمة المرور ">
+                        <input type="password" placeholder="نسيته كلمة المرور؟">
+                        <button class="button submit">انشاء حساب جديد </button>
+                      </form>
+                    </div>
+                    <div class="signin">
+                      <h1>تسجيل الدخول</h1>
+                      <form class="more-padding" autocomplete="off">
+                        <input type="text" placeholder="الاسم">
+                        <input type="password" placeholder="كيمة المرور ">
+                        <div class="checkbox">
+                          <input type="checkbox" id="remember" /><label for="remember">تذكير</label>
+                        </div>
+              
+                        <button class="button submit">تسجيل الدخول</button>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="leftbox">
+                    <h2 class="title"><span>دورات </span>&<br>ذوي الاحتياجات الخاصه</h2>
+                    <p class="desc">اختر الدوره الخاصة بك <span>ذوي الاحتياجات الخاصة </span></p>
+                    <img class="flower smaller" src="https://image.ibb.co/d5X6pn/1357d638624297b.jpg" alt="1357d638624297b" border="0">
+                    <p class="account">تمتلك حساب ؟</p>
+                    <button class="button" id="signin"> تسجيل الدخول</button>
+                  </div>
+                  <div class="rightbox">
+                    <h2 class="title"><span>توفير دورات</span>&<br>لذوي الاحتياجات الخاصة</h2>
+                    <p class="desc"> اختر الدورة الخاصة بك <span>ذوي الاحتياجات الخاصة</span></p>
+                    <img class="flower" src="https://preview.ibb.co/jvu2Un/0057c1c1bab51a0.jpg"/>
+                    <p class="account">لاتمتلك حساب؟</p>
+                    <button class="button" id="signup">سجل الان</button>
+                  </div>
+                </div>
+                
+              </div>
+           
+            
+           
+            </div>
+        
+<script>
+  $('#signup').click(function() {
+  $('.pinkbox').css('transform', 'translateX(80%)');
+  $('.signin').addClass('nodisplay');
+  $('.signup').removeClass('nodisplay');
+});
+
+$('#signin').click(function() {
+  $('.pinkbox').css('transform', 'translateX(0%)');
+  $('.signup').addClass('nodisplay');
+  $('.signin').removeClass('nodisplay');
+});
+</script>
+
+
+    
+
+
+
+
+    </body>
+</html>

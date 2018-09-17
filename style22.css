@@ -1,0 +1,530 @@
+/*body{
+    margin: 0;
+    padding: 0;
+    background: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 100%;
+  background-position: center;
+    font-family: sans-serif;
+   
+}
+
+
+.login-box{
+
+    width: 320px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #1c8adb;
+}
+
+
+button{
+    width: 100px;
+    height: 40px;
+    color: #1c8adb;
+    background: #39dc79;
+    text-align: center;
+}
+.myBtoo{
+    padding-bottom: 60px;
+    padding-top: 100px;
+    padding-right: 40px;
+    font-size: 15px;
+    
+    float:right;
+   
+}
+.mylist{
+    list-style-type: none;
+    color: #fff;
+}
+.but
+{
+font-family: Arial;
+text-transform:uppercase;
+font-size: 30px;
+width: 240px;
+height: 60px;
+border-radius: 80px;
+line-height: 60px;
+text-align: center;
+border: 3px solid #009688;
+display: block;
+text-decoration: none;
+margin: 300px;
+color: #009688;
+position: relative;
+overflow: hidden;
+background: transparent;
+transition: .3s;
+margin-top: 450px;
+margin-left: 540px;
+margin-right: 520px;
+}
+
+.but:before
+{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #009688;
+    opacity: .5;
+    top:-100%;
+    left: 0;
+    z-index: -1;
+transition: .3s;
+}
+
+.but:after
+{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #009688;
+    top:-100%;
+    left: 0;
+    z-index: -1;
+transition: .3s;
+transition-delay: .2s;
+}
+
+
+.but:hover
+{
+    color: #fff;
+}
+.but:hover:before{
+    top: 0;
+}
+
+.but:hover:after
+{
+    top: 0;
+}
+
+
+.footer
+{
+width: 100%;
+height: 40px;
+background-color:black;
+color: #fff;
+text-align: center;
+padding: 5px;
+}
+
+.search1{
+    border-radius: 100px;
+  line-height: 60px;
+    text-align: center;
+    border: 3px solid #009688;
+    display: block;
+    text-decoration: none;
+    position: relative;
+overflow: hidden;
+background: transparent;
+transition: .3s;
+}
+
+.login-box2
+{
+ 
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top:306px;
+    left:260px;
+    right: 900px;
+    padding-left: 50px;
+position: absolute;
+
+    transform: translate(-50%,-50%);
+   box-sizing: border-box;
+    padding: 30px 20px;
+float: left;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*$gray: #8E9AAF;
+$lavender: #CBC0D3;
+$pale: #EAC7CC;
+$white: #f6f6f6;
+
+$pink: darken($pale, 15%);
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lora');
+/*
+sans-serif: 'Open Sans', sans-serif;
+$serif: 'Lora', serif;
+*/
+.body {
+ /* background-color: rgb(153, 203, 224);
+  background-image: url('img/nb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+*/
+background-color:  #ecf0f1;
+width: 100%;
+height: 800px;
+}
+ /* navigation */
+ nav  a{
+  display: block;
+  text-align: center;
+  margin: 0px;
+  margin-top: 0px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.navbar a :hover {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #373449;
+  
+    background:  #FFDC7B;
+   
+    border-radius: 25px;
+    transition: all .5s ease;
+  
+}
+
+.navbar a:last-child:hover {
+  background: #373449;
+  color:  #FFDC7B;
+  padding: 10px;
+  border-radius: 25px;
+  
+    color: #373449;
+    background:  #FFDC7B;
+    transition: all .5s ease;
+  
+}
+/* div box styling */
+.container {
+  margin: auto;
+  top: 60px;
+  width: 1000px;
+  height: 650px;
+  position: relative;
+  text-align: center;
+ 
+}
+
+.welcome {
+  background: white;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 15%;
+  top: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+}
+
+.pinkbox {
+  position: absolute;
+  top: 10px;
+  left: 4%;
+  background:#EAC7CC;
+  background-color:pink;
+  width: 220px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 2px 0 10px rgba(0,0,0,.1);
+  transition: all .5s ease-in-out;
+  z-index: 2;
+}
+
+.nodisplay {
+  display:none;
+  transition: all .5s ease;
+}
+
+.leftbox, .rightbox {
+  position: absolute;
+  width: 60%;
+  transition: 1s all ease;
+}
+
+.leftbox {
+  left: -2%;
+}
+.rightbox {
+  right: -2%;
+}
+
+/* font & button styling */
+h1 {
+  font-family:Open Sans;
+  text-align: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: white;
+  opacity: .5;
+  font-size: 1.3em;
+  letter-spacing: 8px;
+}
+
+.title {
+  font-family: Lora;
+  color: #8E9AAF;
+  font-size: 1em;
+  line-height: .9em;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20%;
+}
+.desc {
+  margin-top: -8px;
+}
+.account {
+  margin-top: 45%;
+  font-size: 6px;
+}
+p {
+  font-family: Open Sans;
+  font-size: .5em;
+  letter-spacing: 2px;
+  color: gray;
+  text-align: center;
+}
+
+span {
+  color: #EAC7CC;
+}
+
+.flower {
+  position: absolute;
+  width: 95px;
+  height: 90px;
+  top: 42%;
+  left: 26%;
+  opacity: .7;
+}
+
+.smaller {
+  width: 65px;
+  height: 70px;
+  top: 45%;
+  left: 37%;
+  opacity: .9;
+}
+
+button:hover {
+  padding: 8px;
+  font-family: Open Sans;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 7px;
+  border-radius: 10px;
+  margin: auto;
+  outline: none;
+  display: block;
+
+    background:#EAC7CC;
+    color: white;
+    transition: background-color 1s ease-out;
+  
+}
+
+.button {
+  margin-top: 1%;
+  background: white;
+  color: darken(#EAC7CC, 10%);
+  border: solid 1px #EAC7CC;
+}
+
+/* form styling */
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7px;
+}
+.more-padding{
+  padding-top: 35px;
+  
+    padding: 8px;
+  
+
+    margin-top: 20px;
+  
+}
+.submit :hover{
+  margin-top: 15px;
+  padding: 10px;
+  border-color: darken(#EAC7CC, 2%);
+  
+    background:#CBC0D3;
+    border-color: darken(#CBC0D3, 2%);
+  
+}
+
+input :placeholder:focus {
+  background: #EAC7CC;
+  width: 65%;
+  color: pink;
+  border: none;
+  border-bottom: 1px solid rgba(white, 0.5);
+  padding: 5px;
+  margin: 7px;
+ 
+    color: rgba(white, 0.5);
+  
+ 
+    color: pink;
+    outline: none;
+    border-bottom: 1.2px solid rgba(pink, 0.7);
+    transition: .8s all ease;
+
+      opacity: 0;
+  
+  
+}
+
+label {
+  font-family:Open Sans;
+  color: darken(#EAC7CC, 8%);
+  font-size: 0.6em;
+  letter-spacing: 1px;
+}
+
+.checkbox {
+  display: inline;
+  white-space: nowrap;
+  position: relative;
+  left: -37px;
+}
+
+input[type=checkbox] {
+  width: 7px;
+  background: pink;
+}
+
+.checkbox input[type="checkbox"]:checked + label {
+  color: darken(#EAC7CC, 16%);
+  transition: .5s all ease;
+}
+
+/*.con{
+  list-style-type: none;
+  color:black;
+  padding-bottom: 60px;
+  padding-top:450px;
+  padding-right: 40px;
+  font-size: 15px;
+  text-decoration: none;
+  
+  list-style: none;
+  position: absolute;
+}*/

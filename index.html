@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title> index-page</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="style2.css" rel="stylesheet" type="text/css" >
+
+  <link rel="stylesheet" href="animate.css">
+
+</head>
+
+    <body>
+
+
+   
+      
+
+
+
+<div id="container">
+  <nav class="navbar">
+    
+    <nav class="navbar navbar-expand-lg  fixed- bottom">
+      <a class="navbar-brand" href="#myinfo"> <i class="fa fa-home fa-2x"  aria-hidden="true"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span > <i class="fa fa-home" aria-hidden="true"></i>
+        </span>
+      </button>
+    
+
+      <a class="navbar-brand" href="index.html">
+              <img src="img/iconmonstr-home-10.png" width="30" height="30" class="d-inline-block align-top" alt="">
+             
+            </a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav  mr-auto "  >
+          <li class="nav-item  color=black ">
+            <a class="nav-link" href="Home.html"> الرئيسه<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+ <a class="nav-link " href="About.html"  >حول </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="servies.html">الخدمات</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">تسجيل الدخول </a> 
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="training.html"> التدريب </a>
+            </li>
+            
+     <!--   </ul>
+<form class="form-inline my-2 my-lg-0   search1" >
+              <input class="form-control mr-sm-2" type="search" placeholder="بحث " aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">بحث حول </button>
+            </form>
+      </div>-->
+
+
+</nav>   
+  </nav>
+  <div id="background"></div>
+
+  <div class="section">
+   <h1 id="title" class="margin-top">توفير دورات تدريبية وتعليمية لذوي الاحتياجات الخاصة
+
+  </h1>
+   <h2 class="less-margin">ا <span class="highlight">الدورات تخص...</span> المعاقين </h2><h2>المكفوفين <span class="highlight">وغيرهم</span>.</h2>
+
+  <h1 class="look wow bounceIn">الدورات الخاصة بذوي الاحتياجات الخاصة</h1>
+  <div class="alta">
+    <img id="alta" src="img/images (1).jpg">
+   
+    <!--
+    <div class="button rosegold" id="rosegold" onclick="rosegoldColor()"></div>
+    <div class="button coral" id="coral" onclick="coralColor()"></div>
+    <div class="button fuschia" id="fuschia" onclick="fuschiaColor()"></div>
+    <div class="button black" id="black" onclick="goldColor()"></div>
+    -->
+  
+ 
+  </div>
+  <div class="button2">
+    <button  onclick="rosegoldColor1()"  style="background-color: #CE8C91;"> </button>
+    <button onclick="rosegoldColor2()" style="background-color: #373449;"></button>
+    <button onclick="rosegoldColor3()" style="background-color: #A24868;"></button>
+   
+  </div>
+
+  <div class="desc  wow flash"> 
+      <p><br>لقد تطورت المسميات التي أطلقت على هذه الفئة، حيث أطلق عليها أسماء عديدة، منها فئة: المقعدين، والمعاقين، والعجزة، وذوي العاهات، مثل: الأعمى، والأعرج، والكسيح، والأطرش، والأخرس، والمجنون، وأصحاب العاهات، والعاجزين، وكل هذه المسميات منطلقة من مبدأ العجز، أي تنظر إلى الفرد ذي الاحتياجات الخاصة من جوانب ضعفه وقصوره فقط وتهمل جوانب قوته،
+      والحاجة التعليمية في تكنولوجيا التعليم هي فجوة أو انحراف بين ما هو كائن الوضع الراهن وما ينبغي أن يكون الوضع المرغوب، وعلى ذلك يعرف ذوو الاحتياجات الخاصة بأنهم الأفراد الذين ينحرفون عن المتوسط في جانب أو أكثر من جوانب الشخصية سواء أكان جسديًا أم عقليًا أم نفسيًا أم اجتماعيًا يحول بينهم وبين تحقيق التوازن والسلوك العادي
+  </p>
+  </div>
+</div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+let alta = document.getElementById('alta');
+let background = document.getElementById('background');
+let title = document.getElementById('title');
+
+function rosegoldColor1() {
+  alta.src='img/images (3).jpg';
+  background.style.backgroundColor = '#CE8C91';
+  title.style.color= '#CE8C91';
+}
+
+function rosegoldColor2() {
+  alta.src='img/download (1).jpg';
+  background.style.backgroundColor = '#373449';
+  title.style.color= '#373449';
+}
+
+function rosegoldColor3() {
+  alta.src='img/images (2).jpg';
+  background.style.backgroundColor = '#A24868';
+  title.style.color= '#A24868';
+}
+
+
+
+</script>
+
+
+<!-- wow -->
+<script src="wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script>
+
+
+
+
+
+
+
+
+
+
+            
+    </body>
+</html>
